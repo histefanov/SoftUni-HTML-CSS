@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+.article-title {
+    font-family: Sentinel A, Sentinel B, Georgia, Times New Roman, Times, serif;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #747474;
+    text-transform: capitalize;
+}
+
+.article-span, .article-content {
+    font-family: Graphik Semibold Web, Open Sans, Helvetica Neue, Helvetica, Arial;
+    font-size: 16px;
+    line-height: 1.46;
+    color: #5c5a5a
+}
+
+.article-span {
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.article-content {
+    font-weight: 400;
+}
