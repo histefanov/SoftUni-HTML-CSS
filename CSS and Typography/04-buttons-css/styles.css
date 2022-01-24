@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Regular.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Bold.ttf") format("ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Thin.ttf") format("ttf");
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+.main-container {
+    margin: 65px 50px;
+}
+
+.main-container h2 span {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    padding-bottom: 3px;
+}
+
+.buttons-container {
+    margin: 35px 0px;
+}
+
+a, button {
+    margin-right: 10px;
+    padding: 6px 15px;
+    border: 2px solid rgb(51, 51, 51);
+    background-color: rgb(251, 251, 251);
+    border-radius: 15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color:rgb(51, 51, 51)
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.fill {
+    background-color: rgb(51, 51, 51);
+    color:rgb(251, 251, 251)
+}
+
+.hover:hover {
+    outline: none;
+    border-color: rgb(0, 102, 0);
+    background-color: rgb(0, 102, 0);
+    color: rgb(251, 251, 251);
+    transition-duration: 175ms;
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.85em;
+    color: black;
+}
+
