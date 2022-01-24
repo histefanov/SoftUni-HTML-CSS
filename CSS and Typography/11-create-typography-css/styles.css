@@ -1,0 +1,79 @@
+body {
+    margin: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+.heading {
+    margin-bottom: 0px;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+ul ul {
+    list-style-type: disc;
+    padding-left: 18px;
+}
+
+ul ul ul {
+    list-style-type: circle;
+    padding-left: 18px;
+}
+
+li {
+    padding-left: 8px;
+}
+
+table {
+    margin: 30px 0;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(206, 205, 205)
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(238, 238, 238)
+}
+
+th, td {
+  width: 100px;
+  overflow: hidden;
+}
+
+td {
+    padding: 7px;
+}
+
+table thead tr {
+    background-color: rgb(206, 205, 205);
+}
+
+table thead td {
+    font-weight: bold;
+}
+
+table tbody td { 
+    border: 1px solid rgb(206, 205, 205);
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    padding-left: 35px;
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
