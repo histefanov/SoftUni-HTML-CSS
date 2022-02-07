@@ -1,0 +1,44 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 40px 75px;
+}
+
+.header {
+    border-bottom: 2px solid #000;
+}
+
+.nav-item, .site-title, ul, nav {
+    display: inline-block;
+}
+
+.site-title {
+    margin-right: 120px;
+    font-size: 28px;
+}
+
+.nav-item {
+    margin-right: 30px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: green;
+}
+
+main {
+    margin-top: 40px;
+}
+
+main > h1 {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+main > p {
+    line-height: 1.5;
+}
