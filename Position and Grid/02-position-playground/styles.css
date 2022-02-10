@@ -1,0 +1,41 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.page {
+    margin: 0;
+}
+
+.viewport {
+    position: relative;
+    height: 100vh;
+}
+
+.viewport--sky {
+    background: linear-gradient(90deg, rgba(1, 86, 133) 0%, rgba(0,255,206,1) 100%);
+}
+
+.viewport--sunset {
+    background: linear-gradient(90deg, rgba(144,0,87,1) 0%, rgba(236,143,0,1) 100%);
+}
+
+.card {
+    display: block;
+    position: absolute;
+    width: 30vw;
+    max-height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}

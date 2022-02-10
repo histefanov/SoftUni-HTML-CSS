@@ -1,0 +1,52 @@
+.page {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px;
+}
+
+.header, 
+.sidebar, 
+.main-container, 
+.footer {
+    border-radius: 3px;
+    padding: 5px 10px;
+    background: rgb(181, 216, 255);
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: aside;
+}
+
+.main-container {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.header__title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sidebar__list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+.sidebar__link {
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
