@@ -87,7 +87,7 @@ body {
 }
 
 .article__img--left {
-    margin: 0 20px 20px 0;
+    margin: 24px 20px 20px 0;
     float: left;
 }
 
@@ -107,7 +107,7 @@ body {
 
 .article__inline-wrapper--right {
     padding-left: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
     color: rgb(75, 75, 75);
 }
 
