@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.page {
+    margin: 64px 100px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    border-bottom: 3px solid black;
+    padding: 48px 0;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header__nav {
+    display: flex;
+    gap: 42px;
+    justify-content: space-around;
+    padding: 0 24px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.header__link {
+    text-decoration: none;
+    color: green;
+}
+
+.main {
+    padding: 48px 0;
+}
+
+.main__heading {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.main__paragraph {
+    margin-top: 24px;
+    line-height: 1.5;
+}

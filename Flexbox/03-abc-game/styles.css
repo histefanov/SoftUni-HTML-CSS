@@ -1,0 +1,76 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.page {
+    margin: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    max-width: 15vw;
+    height: 35rem;
+}
+
+.container__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: calc(7.5vw - 0.75rem);
+    height: calc(35rem / 8 - 1rem);
+    text-align: center;
+}
+
+.container__item--first {
+    order: 1;
+}
+
+.container__item--second {
+    order: 2;
+}
+
+.container__item--third {
+    order: 3;
+}
+
+.container__item--fourth {
+    order: 4;
+}
+
+.container__item--fifth {
+    order: 5;
+}
+
+.container__item--sixth {
+    order: 6;
+}
+
+.container__item--seventh {
+    order: 7;
+}
+
+.container__item--eighth {
+    order: 8;
+}
+
+.container__item--ninth {
+    order: 9;
+}
+
+.container__item--tenth {
+    order: 10;
+}
+
+.container__item--eleventh {
+    order: 11;
+}
+
+.container__item--twelfth {
+    order: 12;
+}
