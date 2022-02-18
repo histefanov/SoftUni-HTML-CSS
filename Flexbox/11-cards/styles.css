@@ -1,0 +1,35 @@
+.page {
+    margin: 50px 300px;
+    background-color: rgb(238, 238, 238);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cards-layout.masonry {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-rows: masonry;
+}
+
+.cards-layout.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.cards-layout.flex .card {
+    flex-basis: calc(33.33% - 1.4rem);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__footer {
+    border-top: 1px solid grey;
+}
