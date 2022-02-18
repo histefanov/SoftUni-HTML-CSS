@@ -1,0 +1,23 @@
+.page {
+    display: flex;
+    margin: 128px 200px;;
+}
+
+.gallery, .gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__list {
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.gallery__item {
+    display: flex;
+    align-items: center;
+    border: 10px solid black;
+    padding: 1rem;
+}
