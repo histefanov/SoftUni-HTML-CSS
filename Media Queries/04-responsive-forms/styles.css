@@ -106,6 +106,10 @@ html {
         gap: 0.4rem;
     }
 
+    .form__label {
+        flex-basis: 20%;
+    }
+
     .form__input {
         flex-basis: 80%;
         height: 34px;
