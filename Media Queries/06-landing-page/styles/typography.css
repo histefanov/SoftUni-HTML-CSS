@@ -9,11 +9,21 @@
 }
 
 @font-face {
-    font-family: "Roboto Condensed";
-    src: url("../fonts/RobotoCondensed-Regular.ttf");
+    font-family: "Oswald Extra-light";
+    src: url("../fonts/Oswald-ExtraLight.ttf");
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "Oswald Light";
+    src: url("../fonts/Oswald-Light.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato Italic";
+    src: url("../fonts/Lato-Italic.ttf");
 }
