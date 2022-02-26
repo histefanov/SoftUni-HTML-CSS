@@ -27,6 +27,9 @@ html {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
 }
 
 .header__heading--primary {
@@ -41,10 +44,39 @@ html {
     text-transform: uppercase;
 }
 
+.header__nav {
+    position: relative;
+}
+
+.header__menu-checkbox {
+    display: none;
+}
+
+.header__menu-label span {
+    padding-left: 3px;
+    font-weight: 600;
+}
+
+.header__nav-items {
+    display: none;
+    position: absolute;
+}
+
+.header__menu-checkbox:checked~.header__nav-items {
+    display: block;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
 .hero {
     display: flex;
     gap: 1rem;
-    margin-bottom: 24px;
+    margin:0 auto 24px auto;
+    max-width: 540px;
 }
 
 .hero__heading {
@@ -55,6 +87,7 @@ html {
 
 .hero__img {
     width: 35%;
+    max-width: 112px;
 }
 
 .hero__btn {
@@ -75,16 +108,17 @@ html {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin: 36px 0;
+    margin: 36px auto 24px auto;
+    max-width: 800px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 24px;
 
     margin: 16px 0;
-    flex-basis: calc(50% - 8px);
+    flex-basis: calc(50% - 12px);
     text-align: center;
 }
 
@@ -123,7 +157,8 @@ html {
 .sign-up__form {
     display: flex;
     justify-content: space-around;
-    margin: 30px 0 8px 0;
+    margin: 30px auto 8px auto;
+    max-width: 348px;
 }
 
 .sign-up__input {
@@ -164,7 +199,9 @@ html {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin: 0 auto;
     padding: 36px 0 16px 0;
+    max-width: 850px;
 }
 
 .footer__heading {
@@ -190,4 +227,79 @@ html {
     padding-left: 6px;
     display: flex;
     gap: 6px;
+}
+
+@media screen and (min-width: 576px) {
+    .hero {
+        padding-right: 56px;
+        gap: 3rem;
+    }
+
+    .cards-wrapper {
+        gap: 48px;
+    }
+
+    .card {
+        flex-basis: calc(50% - 24px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__menu-label {
+        display: none;
+    }
+
+    .header__nav-items {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        position: static;
+        margin-right: 32px;
+    }
+
+    .card {
+        flex-basis: calc(33.333% - 32px)
+    }
+
+    .testimonials > * {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer__description {
+        flex-basis: 25%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+    
+    .header {
+        margin: 32px 128px 128px 128px;
+    }
+
+    .hero {
+        max-width: 768px;
+    }
+
+    .cards-wrapper {
+        max-width: 1200px;
+    }
+
+    .testimonials {
+        gap: 50px;
+    }
+    
+    .footer {
+        max-width: 1300px;
+        gap: 100px;
+    }
 }
