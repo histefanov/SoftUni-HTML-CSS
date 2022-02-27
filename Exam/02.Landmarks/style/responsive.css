@@ -1,0 +1,91 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 18px;
+    }
+    #top-bar ul:first-child {
+        padding-left: 24px;
+    }
+
+    #top-bar ul:first-child li:last-child {
+        display: none;
+    }
+
+    #main-menu {
+        text-align: center;
+    }
+
+    #main-menu img {
+        float: none;
+        width: 32%;
+        padding: 8px 0;
+    }
+
+    #main-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 0;
+    }
+
+    #main-menu ul li {
+        border: 1px solid #e52236;
+        text-align: center;
+        width: 128px;
+        padding-block: 13px;
+    }
+
+    header div img {
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    #left-aside {
+        display: flex;
+        justify-content: space-evenly;
+
+        margin: 12px 0 36px 0;
+    }
+
+    #left-aside article {
+        border: none;
+    }
+
+    #news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #news article {
+        flex-basis: 95%;
+    }
+
+    #right-aside {
+        display: block;
+        width: 95%;
+        margin: 36px auto 16px auto;
+    }
+
+    #right-aside div button {
+        font-size: 23px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        padding: 20px 36px;
+    }
+
+    footer ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
